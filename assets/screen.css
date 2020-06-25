@@ -60,30 +60,28 @@ html, body {
 }
 
 /* Fonts and Spacing*/
-h1, h2, footer, .abouttitle, .contentpn{
+h1, footer, .abouttitle{
   text-align: center;
 }
-h1, h2, .navigation, .abouttitle{
+h1, .navigation, .abouttitle{
   text-transform: uppercase;
 }
-h1, h2, h3, h4, p, a, .abouttitle{
+h1, p, a, .abouttitle{
   margin: 1vh;
 }
 h1, .navlink{
   color:#FFF;
 }
-h2, .abouttitle{
+.abouttitle{
   font-size: 1.5em; /*45/18*/
 }
 h1{
   font-size: 3em; /*36/18*/
   letter-spacing:.20em;
 }
-h3{
-  font-style: italic;
-}
 p{
   max-width: 40em;
+  line-height: 120%;
 }
 a{
   text-decoration: none;
@@ -94,21 +92,15 @@ a{
 .ita{
   font-style: italic;
 }
-
 /* Splash page and navigation */
-header, .single {
+header{
   display: grid;
   grid-template-columns: 2fr 3fr 2fr;
   background-image: url('../sky.jpg');
-  background-position: center;
+  background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-}
-header{
   grid-template-rows: 33vh 34vh 33vh; /*sum to 100*/
-}
-.single{
-  grid-template-rows: 10vh;
 }
 .logo {
   grid-column: 1;
@@ -143,19 +135,15 @@ nav{
 }
 
 /* Content Boxes */
-.about, .contentpn{
+.about{
   max-width: 95vw;
   background-color: #fcfcfc;
   border-radius: 1vw;
   margin: 15vh 5vh;
   padding: 3vw;
-}
-.about, .gallery{
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-}
-.about{
   align-items: center;
   flex-wrap: wrap-reverse;
 }
@@ -163,11 +151,7 @@ nav{
   max-height: 50vh;
   min-height: 20vh;
 }
-.gallery{
-  align-items: flex-start;
-  flex-wrap: wrap;
-}
-.gallery img, section img{
+section img{
   margin: 2vw;
   max-height: 50vh;
   max-width: 60vw;
@@ -183,20 +167,20 @@ footer{
 .abouttext{
   max-width: 35em;
 }
-.about, .contentpn{
+.about{
   max-width: 85vw;
   margin: 15vh;
 }
 h1{
   font-size: 5em; /*36/18*/
 }
-h2, .abouttitle{
-  font-size: 2em;
-}
-h3, figcaption, footer, .navigation{
+figcaption, footer, .navigation{
   font-size: 1.5em; /*30/18*/
 }
 p, .abouttext{
 font-size: 1.3333333333334em;
+}
+.abouttitle{
+font-size: 2.6666666666667em;
 }
 }
