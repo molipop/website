@@ -163,7 +163,7 @@ footer{
 }
 
 /* Media Queries */
-@media screen and (min-width:800px){
+@media screen and (min-width:1100px){
 .abouttext{
   max-width: 35em;
 }
