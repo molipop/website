@@ -124,6 +124,9 @@ nav{
   border-color: #FFF;
   padding: 5vh 2vh;
   align-self: center;
+  justify-self: center;
+  align-items: center;
+  justify-items: center;
 }
 .arrow{
   grid-column: 2;
