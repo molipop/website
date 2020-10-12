@@ -123,8 +123,7 @@ nav{
   border-width: thick;
   border-color: #FFF;
   padding: 5vh 2vh;
-  align-items: center;
-  justify-items: center;
+  align-self: center;
 }
 .arrow{
   grid-column: 2;
